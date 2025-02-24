@@ -17,8 +17,8 @@ export default function Torch(input, setInput) {
         y : useSpring(mouse.y, smoothOptions),
     };
 
-    const [showTorch, setShowTorch] = useState(true);
-    const [showIntermediate, setShowIntermediate] = useState(true);
+    const [showTorch, setShowTorch] = useState(false);
+    const [showIntermediate, setShowIntermediate] = useState(false);
     const [randomPosition, setRandomPosition] = useState({
         top : "50%",
         left : "50%",
